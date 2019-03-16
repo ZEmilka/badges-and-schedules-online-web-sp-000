@@ -28,6 +28,10 @@ def printer(attendees)
  badge_messages.each do |message|
    puts message
  end
+ room_message=assign_rooms(attendees)
+ room_messageeach do |attendees|
+   puts message
+ end
 end
 
 
