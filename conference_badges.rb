@@ -29,7 +29,7 @@ def printer(attendees)
    puts message
  end
  room_message=assign_rooms(attendees)
- room_messageeach do |message|
+ room_message.each do |message|
    puts message
  end
 end
